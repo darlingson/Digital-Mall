@@ -1,0 +1,23 @@
+# Binaries and Build Outputs
+/build/
+bin/
+
+# Protobuf Generated Files
+pkg/proto/auth/*.pb.go
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Module Files
+# Keep `go.sum` if reproducible builds are important.
+# Remove this line if you want to track dependencies across environments.
+go.sum
